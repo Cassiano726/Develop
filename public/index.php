@@ -20,6 +20,19 @@ use JCS\Controllers\Controller;
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Herdando o layOut do sistema -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8" >
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/frontend.css">
+        <link rel="stylesheet" type="text/css" href="css//form.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        
+        
+        
         <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
         <title>Develop</title>
 
@@ -34,13 +47,7 @@ use JCS\Controllers\Controller;
         <![endif]-->
     </head>
     <body>
-
-        <h1>
-            <?php
-            $cotroller = new Controller();
-            $cotroller->index();
-            ?>
-        </h1>
+        
 
         <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
